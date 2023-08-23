@@ -1,0 +1,141 @@
+#{
+ margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.navbar-brand img {
+    height: 34px;
+}
+
+.bg-light {
+    background-color: #f1eeee !important;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;/
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    flex-basis: 50%;
+    padding: 10px;
+}
+
+.col-md-6{
+    flex-basis: 50%;
+    padding: 80px 2px;
+}
+
+
+h2,p {
+  font-size: larger;
+  color: black;
+}
+
+
+.container {
+    display: flex;
+  }
+
+.form-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .social-container {
+    flex: 1;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Estilos CSS para os links das redes sociais */
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .social-links a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+  }
+
+  footer .container p, .social-container h2,
+  .social-links{
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center
+  }
+
+  .social-links img{
+    height: 100px;
+  }
+
+  .social-links{
+    display: grid;
+    justify-content: center;
+    padding: 33px;
+  }
+
+  hr{
+    color: #1d1818a1;
+  }
+
+  #venha-ate-nos {
+    background-color: #f1eeee;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #venha-ate-nos h2{
+    color: #333;
+    margin-left: 42%;
+  }
+  
+  #venha-ate-nos p {
+    color: #666;
+    margin-left: 20%;
+  }
+  
+  #venha-ate-nos ul{
+    list-style-type: none;
+    padding: 0;
+    display: inline-flex;
+    margin-left: 20%;
+  }
+  
+  #venha-ate-nos li {
+    margin-bottom: 10px;
+    margin: 10px;
+  }
+  
+  #venha-ate-nos li strong {
+    font-weight: bold;
+  }
+
+  
